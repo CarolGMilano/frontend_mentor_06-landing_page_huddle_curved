@@ -1,0 +1,14 @@
+@media screen and (min-width: 800px) {
+    .corpo__num {
+        background: url('../../img/bg-section-top-desktop-1.svg') no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    
+    .num__maxScreen {
+        flex-direction: row;
+        row-gap: 0;
+        justify-content: space-around;
+        padding: 0 2rem 11rem 2rem;
+    }
+}

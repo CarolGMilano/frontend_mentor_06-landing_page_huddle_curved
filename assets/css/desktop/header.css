@@ -1,0 +1,6 @@
+@media screen and (min-width: 800px) {
+    .cabecalho__img {
+        width: 20%;
+        height: 20%;
+    }
+}

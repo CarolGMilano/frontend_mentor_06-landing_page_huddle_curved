@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+    .destaque__container .container__texto {
+        align-self: center;
+        max-width: 460px;
+    }
+
+    .destaque__img {
+        align-self: center;
+        width: 80%;
+    }
+}

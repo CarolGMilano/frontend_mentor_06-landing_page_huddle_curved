@@ -1,0 +1,22 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 8rem 2rem;
+}
+
+.cabecalho__img {
+    height: 19px;
+    width: 110px;
+}
+
+.cabecalho__btn {
+    background-color: transparent;
+    border: 1px solid var(--rosa);
+    border-radius: 25px;
+    color: var(--rosa);
+    font-family: var(--fonte_body);
+    font-size: 12px;
+    font-weight: 400;
+    padding: .3rem 1.3rem;
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px) {
+    .newsletter__descricao {
+        font-size: 13px;
+        width: 310px;
+    }
+
+    .newsletter__container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5rem;
+    }
+
+    .newsletter__container #container__input,
+    .newsletter__container .container__btn {
+        padding: .6rem;
+    }
+
+    .newsletter__container .container__btn {
+        font-size: 13px;
+    }
+}

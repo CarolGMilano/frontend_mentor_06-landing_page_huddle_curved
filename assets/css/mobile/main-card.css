@@ -1,0 +1,53 @@
+.corpo__card,
+.card__maxScreen {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__maxScreen:nth-child(1) {
+    background-color: var(--perola);
+}
+
+.card__maxScreen:nth-child(2) {
+    background: 
+    url('../../img/bg-section-bottom-mobile-1.svg') no-repeat top, url('../../img/bg-section-top-mobile-2.svg') no-repeat bottom, var(--branco);
+    background-size: contain, contain;
+    padding: 10rem 2rem 10rem 2rem;
+}
+
+.card__maxScreen:nth-child(3) {
+    background: var(--perola);
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    row-gap: 5rem;
+}
+
+.container__img {
+    width: 90%;
+    align-self: center;
+}
+
+.container__textos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.container__textos .container__textos--titulo {
+    font-size: 21px;
+    font-family: var(--fonte_titulo);
+    font-weight: 600;
+    text-align: center;
+    color: var(--preto);
+}
+
+.container__textos .container__textos--descricao {
+    text-align: center;
+    font-size: 15px;
+    color: var(--preto);
+    font-weight: 400;
+}

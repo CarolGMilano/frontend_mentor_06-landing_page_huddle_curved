@@ -1,0 +1,35 @@
+@media screen and (min-width: 1000px) {
+    .corpo {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .corpo__num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .num__maxScreen {
+        width: 1000px;
+    }
+
+    .corpo__card {
+        width: 100vw;
+    }
+
+    .card__maxScreen {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__container {
+        width: 1000px;
+    }
+
+    .corpo__getStarted {
+        width: 100vw;
+    }
+}

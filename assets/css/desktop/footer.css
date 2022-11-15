@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+    .rodape {
+        padding: 3rem 4rem;
+    }
+    
+    .rodape__maxScreen {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

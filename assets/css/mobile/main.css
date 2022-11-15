@@ -1,0 +1,19 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque__container .container__btn,
+.getStarted__btn {
+    align-self: center;
+    background-color: var(--rosa);
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: var(--perola);
+    font-family: var(--fonte_body);
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: .8rem 1rem;
+    width: 200px;
+}

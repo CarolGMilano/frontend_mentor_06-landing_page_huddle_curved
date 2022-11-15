@@ -1,0 +1,33 @@
+@media screen and (min-width: 800px) {
+    .card__container {
+        column-gap: 5rem;
+        padding: 4rem 3rem;
+    }
+
+    .card__maxScreen:nth-child(2) {
+        flex-direction: row;
+        background: 
+            url('../../img/bg-section-bottom-desktop-1.svg') no-repeat top, 
+            url('../../img/bg-section-top-desktop-2.svg') no-repeat bottom, var(--branco);
+        background-size: contain, contain;
+    }
+
+    .card__container:nth-child(1),
+    .card__container:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+
+    .container__img {
+        width: 40%;
+        align-self: center;
+    }
+
+    .container__textos {
+        align-self: center;
+    }
+
+    .container__textos .container__textos--titulo,    
+    .container__textos .container__textos--descricao {
+        text-align: start
+    }
+}

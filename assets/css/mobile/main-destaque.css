@@ -1,0 +1,32 @@
+.corpo__destaque {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+    padding: 0 2rem;
+    margin-bottom: 6rem;
+}
+
+.destaque__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.destaque__container .container__titulo {
+    color: var(--preto_azulado);
+    font-family: var(--fonte_titulo);
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.destaque__container .container__texto {
+    color: var(--preto_azulado);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.destaque__img {
+    width: 100%;
+}

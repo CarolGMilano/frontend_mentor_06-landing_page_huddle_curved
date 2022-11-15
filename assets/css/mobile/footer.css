@@ -1,0 +1,11 @@
+.rodape {
+    display: flex;
+    padding: 3rem 2rem;
+    background-color: var(--preto_azulado);
+}
+
+.rodape__maxScreen {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}

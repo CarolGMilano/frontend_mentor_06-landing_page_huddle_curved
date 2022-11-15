@@ -1,0 +1,8 @@
+@media screen and (min-width: 800px) {
+    .corpo__getStarted {
+        background: 
+            url('../../img/bg-section-bottom-desktop-2.svg') no-repeat top,
+            url('../../img/bg-footer-top-desktop.svg') no-repeat bottom;
+        background-size: contain, contain;
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 1000px) {
+    .rodape {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape__maxScreen {
+        width: 1000px;
+    }
+}

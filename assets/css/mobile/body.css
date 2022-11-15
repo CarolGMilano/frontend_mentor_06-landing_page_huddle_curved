@@ -1,0 +1,5 @@
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte_body);
+    font-size: 16px;
+}

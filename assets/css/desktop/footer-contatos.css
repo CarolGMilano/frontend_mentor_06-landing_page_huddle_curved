@@ -1,0 +1,12 @@
+@media screen and (min-width: 800px) {
+    .contatos__descricao {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .contatos__tel,
+    .contatos__email {
+        font-size: 12px;
+        background-size: 18px 15px;
+    }
+}

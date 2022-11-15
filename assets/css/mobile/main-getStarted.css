@@ -1,0 +1,17 @@
+.corpo__getStarted {
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 2rem;
+    background: 
+        url('../../img/bg-section-bottom-mobile-2.svg') no-repeat top,
+        url('../../img/bg-footer-top-mobile.svg') no-repeat bottom;
+    background-size: contain, contain;
+    row-gap: 1.5rem;
+}
+
+.getStarted__titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fonte_titulo);
+}
