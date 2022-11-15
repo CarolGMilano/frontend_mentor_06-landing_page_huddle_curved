@@ -5,15 +5,18 @@
     }
 
     .card__maxScreen:nth-child(2) {
-        flex-direction: row;
         background: 
             url('../../img/bg-section-bottom-desktop-1.svg') no-repeat top, 
             url('../../img/bg-section-top-desktop-2.svg') no-repeat bottom, var(--branco);
         background-size: contain, contain;
     }
 
-    .card__container:nth-child(1),
-    .card__container:nth-child(3) {
+    .card__maxScreen:nth-child(2) .card__container {
+        flex-direction: row;
+    }
+
+    .card__maxScreen:nth-child(1) .card__container,
+    .card__maxScreen:nth-child(3) .card__container {
         flex-direction: row-reverse;
     }
 
